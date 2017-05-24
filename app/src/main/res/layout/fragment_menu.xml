@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cosapp.com.tictactoe.Fragment.MenuFragment"
+    android:weightSum="2">
+
+    <Button
+        android:id="@+id/hang_man_button"
+        android:layout_width="275dp"
+        android:layout_height="275dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/wisielec7"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/tic_tac_toe_button"
+        android:layout_width="275dp"
+        android:layout_height="275dp"
+        android:background="@drawable/tictactoe"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Kółko krzyżyk</string>
+
+    <!-- TICTACTOE Fragment -->
+    <string name="results">Wyniki:</string>
+    <string name="wins">Wygrane:</string>
+    <string name="draws">Remisy:</string>
+    <string name="loses">Przegrane:</string>
+    <string name="you_have_won">Wygrałeś.</string>
+    <string name="you_have_lost">Przegrałeś.</string>
+    <string name="draw">Remis!</string>
+    <string name="reset">Reset</string>
+
+    <!-- HANGMAN Fragment -->
+    <string name="title_activity_hangman">Wisielec</string>
+
+    <!-- Hangman: Game end dialog -->
+    <string name="game_end">Koniec gry.</string>
+    <string name="correct_answer_was">Poprawna odpowiedź to:</string>
+    <string name="ok">Ok</string>
+
+    <!-- Hangman: Category selection dialog -->
+    <string name="select_category">Wybierz kategorię</string>
+
+    <!-- Categories - dialog window -->
+    <string name="technology">Technologia</string>
+    <string name="countres">Państwa</string>
+    <string name="famous_people">Znani ludzie</string>
+
+    <!-- Hangman: Play again dialog -->
+    <string name="do_you_want_play_again">Czy chcesz zagrać jeszcze raz?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+
+    <!-- Preferences -->
+    <string name="easy">Łatewy</string>
+    <string name="medium">Średni</string>
+    <string name="unbeatable">Nie do pokonania</string>
+
+    <!-- ActionBar Menu -->
+    <string name="settings">Ustawienia</string>
+
+    <!-- Preferences fragment -->
+    <string name="tictactoe">Tic Tac Toe</string>
+    <string name="level">Poziom</string>
+    <string name="select_level">Kliknij, aby wybrać poziom przeciwnika</string>
+    <string name="who_starts">Kto startuje?</string>
+    <string name="do_you_want_always_to_start">Czy chcesz zawsze startować?</string>
+    <string name="select_max_length">Select maximum length of word</string>
+
+</resources>

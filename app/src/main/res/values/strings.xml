@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+
+    <!-- TICTACTOE Fragment -->
+    <string name="results">Results:</string>
+    <string name="wins">Win:</string>
+    <string name="draws">Tie:</string>
+    <string name="loses">Loss:</string>
+    <string name="you_have_won">You have won.</string>
+    <string name="you_have_lost">You have lost.</string>
+    <string name="draw">It\'s a tie!</string>
+    <string name="reset">Reset</string>
+
+    <!-- HANGMAN Fragment -->
+    <string name="title_activity_hangman">Hangman</string>
+
+    <!-- Hangman: Game end dialog -->
+    <string name="game_end">Game have ended.</string>
+    <string name="correct_answer_was">Correct answer was:</string>
+    <string name="ok">Ok</string>
+
+    <!-- Hangman: Category selection dialog -->
+    <string name="select_category">Select category</string>
+
+    <!-- Categories - dialog window -->
+    <string name="technology">Technology</string>
+    <string name="countres">Countries</string>
+    <string name="famous_people">Famous People</string>
+
+    <!-- Hangman: Play again dialog -->
+    <string name="do_you_want_play_again">Do you want to play again?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Preferences -->
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="unbeatable">Unbeatable</string>
+
+    <!-- ActionBar Menu -->
+    <string name="settings">Settings</string>
+
+    <!-- Preferences fragment -->
+    <string name="tictactoe">Tic Tac Toe</string>
+    <string name="level">Level</string>
+    <string name="select_level">Tap to select computer level</string>
+    <string name="who_starts">Who starts</string>
+    <string name="do_you_want_always_to_start">Do you want always to start?</string>
+    <string name="select_max_length">Select maximum length of word</string>
+    <string name="definitions">Definitions</string>
+    <string name="do_you_want_to_get_definition">Do you want to get definition of word?</string>
+    <string name="restart_game">Restart game</string>
+    <string name="from">From:</string>
+    <string name="connection_error">Internet connection error.</string>
+    <string name="downloading_word">Downloading word</string>
+    <string name="word_length">Maximum word length</string>
+    <string name="select_max_length_of_word">Select maximum length of word</string>
+    <string name="letter">letters</string>
+    <string name="choose_game">Choose game</string>
+    <string name="server_response_error">Server response error</string>
+
+
+</resources>

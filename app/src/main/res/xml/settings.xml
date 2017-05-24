@@ -1,0 +1,47 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:sample="http://schemas.android.com/apk/res-auto">>
+
+    <PreferenceCategory
+        android:title="@string/tictactoe">
+
+        <ListPreference
+            android:key="computer_level"
+            android:title="@string/level"
+            android:summary="@string/select_level"
+            android:entries="@array/levels"
+            android:entryValues="@array/level_values"
+            android:defaultValue="1"
+            android:dialogTitle="@string/select_level" />
+
+        <CheckBoxPreference
+            android:key="always_start"
+            android:title="@string/who_starts"
+            android:summary="@string/do_you_want_always_to_start" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/title_activity_hangman">
+
+        <com.pavelsikun.seekbarpreference.SeekBarPreference
+            android:key="max_word_length"
+            android:title="@string/word_length"
+            android:summary="@string/select_max_length_of_word"
+            android:enabled="true"
+            android:defaultValue="15"
+
+            sample:msbp_minValue="5"
+            sample:msbp_maxValue="30"
+            sample:msbp_interval="1"
+            app:msbp_measurementUnit="@string/letter"/>
+
+
+        <CheckBoxPreference
+            android:key="enable_definitions"
+            android:title="@string/definitions"
+            android:summary="@string/do_you_want_to_get_definition" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

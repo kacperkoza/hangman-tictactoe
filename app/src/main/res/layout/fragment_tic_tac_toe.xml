@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cosapp.com.tictactoe.Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/results"
+            android:textAppearance="@android:style/TextAppearance.Medium"/>
+        </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/human_points_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/draw_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+
+
+        <TextView
+            android:id="@+id/computer_points_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="50sp"
+            android:id="@+id/one" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="50sp"
+            android:id="@+id/two" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="50sp"
+            android:id="@+id/three" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="50sp"
+            android:id="@+id/four" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="50sp"
+            android:id="@+id/five" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="50sp"
+            android:id="@+id/six" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="50sp"
+            android:id="@+id/seven" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="50sp"
+            android:id="@+id/eight" />
+
+        <Button
+            android:layout_margin="5dp"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:textSize="50sp"
+            android:id="@+id/nine" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/reset_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/reset_button"
+            android:text="@string/reset"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/info_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+</TableLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="categories">
+        <item>@string/technology</item>
+        <item>@string/countres</item>
+        <item>@string/famous_people</item>
+    </string-array>
+
+    <string-array name="technology">
+        <item>Android</item>
+        <item>Microprocessor</item>
+        <item>Graphics card</item>
+        <item>Internet of things</item>
+        <item>Huawei</item>
+        <item>Roaming</item>
+        <item>Xiaomi</item>
+        <item>Bluetooth</item>
+        <item>Cookies</item>
+    </string-array>
+
+    <string-array name="countries">
+        <item>Monaco</item>
+        <item>Malta</item>
+        <item>Vatican</item>
+        <item>Netherlands</item>
+        <item>San Marino</item>
+        <item>Belgium</item>
+        <item>Great Britain</item>
+        <item>Germany</item>
+        <item>Liechtenstein</item>
+        <item>Italy</item>
+        <item>Switzerland</item>
+        <item>Andorra</item>
+        <item>Luxemburg</item>
+        <item>Czech Republic</item>
+        <item>Moldova</item>
+        <item>Denmark</item>
+        <item>Poland</item>
+        <item>Slovakia</item>
+        <item>France</item>
+        <item>Hungary</item>
+        <item>Portugal</item>
+        <item>Albania</item>
+        <item>Serbia</item>
+        <item>Slovenia</item>
+        <item>Austria</item>
+        <item>Romania</item>
+        <item>Turkey</item>
+        <item>Ukraine</item>
+        <item>Greece</item>
+        <item>Macedonia</item>
+        <item>Croatia</item>
+        <item>Spain</item>
+        <item>Bosnia and Herzegovina</item>
+        <item>Bulgaria</item>
+        <item>Lithuania</item>
+        <item>Ireland</item>
+        <item>Montenegro</item>
+        <item>Belarus</item>
+        <item>Latvia</item>
+        <item>Estonia</item>
+        <item>Sweden</item>
+        <item>Finland</item>
+        <item>Norway</item>
+        <item>Russia</item>
+        <item>Kazakhstan</item>
+        <item>Iceland</item>
+    </string-array>
+
+    <string-array name="famous_people">
+        <item>Buzz Aldrin</item>
+        <item>Muhammad Ali</item>
+        <item>Woody Allen</item>
+        <item>Marie Antoinette</item>
+        <item>Joan of Arc</item>
+        <item>Lance Armstrong</item>
+        <item>Louis Armstrong</item>
+        <item>Neil Armstrong</item>
+        <item>Fred Astaire</item>
+        <item>Ludwig van Beethoven</item>
+        <item>Alexander Graham Bell</item>
+        <item>Napoleon Bonaparte</item>
+        <item>Al Capone</item>
+        <item>Fidel Castro</item>
+        <item>Charlie Chaplin</item>
+        <item>Winston Churchill</item>
+        <item>Kurt Cobain</item>
+        <item>Salvador Dali</item>
+        <item>Leonardo Da Vinci</item>
+        <item>Charles Darwin</item>
+        <item>Walt Disney</item>
+        <item>Bob Dylan</item>
+        <item>Thomas Edison</item>
+        <item>Albert Einstein</item>
+        <item>Bill Gates</item>
+        <item>Adolf Hitle</item>
+        <item>Michael Jackson</item>
+        <item>Michael Jordan</item>
+        <item>Bob Marley</item>
+    </string-array>
+
+</resources>
